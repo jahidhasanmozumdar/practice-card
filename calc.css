@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+.head{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 #9ea9b4;
+    transition: 0.03s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(159, 49, 106, 0.28);
+}
+.calc_head #result{
+     width: 320px;
+     height: 70px;
+     padding: 10px;
+     background-color: aliceblue;
+     color: rgba(0, 0, 0, 0.849);
+     font-size: 2.5rem;
+     font-weight: bold;
+     text-align: right;
+     letter-spacing: 2px;
+}
+.btn{
+    width: 85px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color:#EFEFEF;
+    color:rgba(0, 0, 0, 0.726);
+}
+.habol{
+    background-color: rgb(17, 204, 33);
+}
+.alu{
+    background-color: rgb(243, 2, 211);
+}
+.btn:hover{
+    background-color: darkorange;
+}
